@@ -1,3 +1,4 @@
+@'
 {
   "name": "recall",
   "private": true,
@@ -8,3 +9,4 @@
     "server": "npm --prefix server run dev"
   }
 }
+'@ | Set-Content package.json
